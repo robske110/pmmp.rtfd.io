@@ -2,10 +2,9 @@ Can I use .php files
 """"""""""""""""""""
 
 Yes,
-but only when the `DevTools`_ plugin is installed and the plugin/PocketMine API versions are both the same.
+some plugins are Script plugins which ship in .php form and can be installed by putting them in the plugins folder. More on `this forum thread <forumthread_>`_.
+Plugins in a folder containg many php files and a plugin.yml can be loaded only when the `DevTools`_ plugin is installed and the plugin/PocketMine API versions are both the same.
 Take a look at the :doc:`plugin example </plugins>`
 
-For small test plugins there is a new way, check out `this forum thread <forumthread_>`_
-
-.. _DevTools: http://forums.pocketmine.net/plugins/devtools.515/
+.. _DevTools: https://jenkins.pmmp.io/job/PocketMine-MP/Alpha/artifact/DevTools.phar
 .. _forumthread: https://forums.pocketmine.net/threads/new-plugin-scripting-format-draft.8335/
